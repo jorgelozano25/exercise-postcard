@@ -1,0 +1,59 @@
+/* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Playwrite AU VIC", cursive;
+	font-size: x-small;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	padding: 5px;
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	padding: 8px 0px 0px 8px;
+	width: 330px;
+	margin: 0px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left {
+	padding: 8px;
+}
+.body-right {
+	padding: 5px;
+}
+input {
+	padding-bottom: 2px;
+	margin: 3px;
+	border: none;
+	border-bottom: solid 1px gray;
+	font-family: "Playwrite AU VIC", cursive;
+	font-size: x-small;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	color: white;
+	background: rgb(22, 143, 203);
+	padding: 5px;
+	border-radius: 5px;
+	font-family: "Playwrite AU VIC", cursive;
+	font-size: x-small;
+}
